@@ -18,6 +18,13 @@
             "homepage": "http://www.andrewelkins.com"
         }
     ],
+    "repositories": [
+
+        {
+            "type": "vcs",
+            "url": "https://github.com/thoughtsatire/ardent.git"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~4.0|~5.0",
@@ -29,26 +36,6 @@
         "illuminate/database": "~4.0",
         "symfony/process": "~2.3"
     },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "laravelbook/ardent",
-                "version": "2.4.3",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/thoughtsatire/ardent.git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-0": {
-                        "LaravelBook\\Ardent": "src/"
-                    }
-                }
-            }
-        }
-
-    ],
     "suggest": {
         "zizaco/confide": "Confide is an authentication solution for Laravel 4 that couples very well with Entrust"
     },
