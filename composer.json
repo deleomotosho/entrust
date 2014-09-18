@@ -32,8 +32,20 @@
     "repositories": [
 
         {
-            "type": "vcs",
-            "url": "https://github.com/thoughtsatire/ardent.git"
+             "type": "package",
+            "package": {
+                "name": "laravelbook/ardent",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/thoughtsatire/ardent.git",
+                    "reference": "dev-patch-1"
+                },
+                "autoload": {
+                    "psr-0": {
+                    "LaravelBook\\Ardent": "src/"
+                    }
+                }
+            }
         }
 
     ],
