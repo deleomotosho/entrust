@@ -1,7 +1,12 @@
 {
     "name": "zizaco/entrust",
     "description": "This package provides a flexible way to add Role-based Permissions to Laravel 4",
-    "keywords": ["laravel","illuminate","auth","roles"],
+    "keywords": [
+        "laravel",
+        "illuminate",
+        "auth",
+        "roles"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -25,15 +30,15 @@
         "symfony/process": "~2.3"
     },
     "repositories": [
+
         {
-           {
             "type": "vcs",
             "url": "https://github.com/thoughtsatire/ardent.git"
         }
-        }
+
     ],
     "suggest": {
-        "zizaco/confide":"Confide is an authentication solution for Laravel 4 that couples very well with Entrust"
+        "zizaco/confide": "Confide is an authentication solution for Laravel 4 that couples very well with Entrust"
     },
     "autoload": {
         "classmap": [
