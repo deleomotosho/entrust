@@ -21,7 +21,7 @@
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~4.0|~5.0",
-        "laravelbook/ardent": "2.4.3"
+        "laravelbook/ardent": "dev-master
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
@@ -64,6 +64,7 @@
         "branch-alias": {
             "dev-master": "1.2-dev"
         }
-    }
+    },
+    "minimum-stability": "dev"
     
 }
