@@ -29,7 +29,7 @@
             "type": "package",
             "package": {
                 "name": "laravelbook/ardent",
-                "version": "2.4.2",
+                "version": "dev-patch-1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/thoughtsatire/ardent.git",
