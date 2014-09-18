@@ -32,13 +32,13 @@
     "repositories": [
 
         {
-             "type": "package",
+            "type": "package",
             "package": {
                 "name": "laravelbook/ardent",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/thoughtsatire/ardent.git",
-                    "reference": "dev-patch-1"
+                    "reference": "origin/patch-1"
                 },
                 "autoload": {
                     "psr-0": {
