@@ -30,7 +30,7 @@
     },
     "suggest": {
         "zizaco/confide": "Confide is an authentication solution for Laravel 4 that couples very well with Entrust",
-        "laravelbook/ardent": "Self-validating smart models for Laravel 4's Eloquent O/RM
+        "laravelbook/ardent": "Self-validating smart models for Laravel 4's Eloquent O/RM"
     },
     "autoload": {
         "classmap": [
